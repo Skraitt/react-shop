@@ -10,6 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
     assetModuleFilename: 'assets/image/[hash][ext][query]',
+    publicPath: '/',
   },
   mode: 'development',
   devtool: 'source-map',
@@ -89,6 +90,7 @@ module.exports = {
     historyApiFallback: true,
     open: true,
     port: 3006,
+    historyApiFallback: true,
   },
 
 };
